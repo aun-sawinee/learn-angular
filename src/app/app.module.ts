@@ -13,6 +13,8 @@ import { NavbarComponent } from './home/NavbarComponent/navbar.component';
 import { SearchBarComponent } from './home/NavbarComponent/SearchBarComponent/searchbar.component';
 import { TopbannerComponent } from './home/TopBannerComponent/topbanner.component';
 
+import { TodolistComponent } from './ToDoListComponent/todolist.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +24,8 @@ import { TopbannerComponent } from './home/TopBannerComponent/topbanner.componen
     CatComponent,
     NavbarComponent,
     SearchBarComponent,
-    TopbannerComponent
+    TopbannerComponent,
+    TodolistComponent
   ],
   imports: [
     BrowserModule,
