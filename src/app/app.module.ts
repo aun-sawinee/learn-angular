@@ -6,12 +6,14 @@ import { HomeComponent } from './home/home.component';
 import { FormsModule } from '@angular/forms';
 
 import { CountingComponent } from './counting/counting.component';
+import { Lab4Component } from './Lab4Component/lab4.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    CountingComponent
+    CountingComponent,
+    Lab4Component
   ],
   imports: [
     BrowserModule,
