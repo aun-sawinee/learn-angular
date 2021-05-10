@@ -5,10 +5,13 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { FormsModule } from '@angular/forms';
 
+import { CountingComponent } from './counting/counting.component';
+
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    CountingComponent
   ],
   imports: [
     BrowserModule,
